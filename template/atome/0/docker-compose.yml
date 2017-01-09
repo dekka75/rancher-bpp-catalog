@@ -1,0 +1,10 @@
+# DESCRIPTION: atome application
+mysql:
+  image: 'atome/mysql:latest'
+
+  volumes:
+    - ${BPP_APPLICATION_VOLUME_NAME}:/home  
+    - ${BPP_MYSQL_VOLUME_NAME}:/var/lib/mysql
+
+  ports:
+    - 3306:3306/tcp
