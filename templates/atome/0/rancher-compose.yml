@@ -3,7 +3,7 @@
   version: "v0.0.1"
   description: "atome application"
   uuid: atome-0
-  minimum_rancher_version: v0.8.0
+  minimum_rancher_version: v0.6.0
   questions:
     - variable: "BPP_APPLICATION_VOLUME_NAME"
       description: "Name to give the application volume"
