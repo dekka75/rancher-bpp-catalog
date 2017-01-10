@@ -3,8 +3,8 @@ mysql:
   image: 'atome/mysql:latest'
 
   volumes:
-    - ${BPP_APPLICATION_VOLUME_NAME}:/home  
     - ${BPP_MYSQL_VOLUME_NAME}:/var/lib/mysql
+    - ${BPP_APPLICATION_VOLUME_NAME}:/opt/atome
 
   ports:
     - 3306:3306/tcp
