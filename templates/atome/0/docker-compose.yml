@@ -1,6 +1,6 @@
 # DESCRIPTION: atome application
 mysql:
-  image: 'atome/mysql:latest'
+  image: 'dekka/mysql:latest'
 
   volumes:
     - ${BPP_MYSQL_VOLUME_NAME}:/var/lib/mysql
